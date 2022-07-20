@@ -1,0 +1,19 @@
+#workbenchPageContent {
+    max-width: 100%;
+}
+
+.content_3f3fd3c2,
+.CanvasZone {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.ms-List-page {
+    margin-top: 0 !important;
+}
+
+.ms-DetailsList .ms-DetailsHeader-cellTitle {
+    /* justify-content: center !important; */
+    color: #038387;
+    background-color: #03838720;
+}

@@ -1,0 +1,59 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "innovation-hub-intranet-client-side-solution",
+        "id": "80957420-c4d4-4f50-a9d9-7e49c720cc6b",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "webApiPermissionRequests": [{
+                "resource": "Microsoft Graph",
+                "scope": "Calendars.Read"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "User.ReadBasic.All"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "Group.Read.All"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "Group.ReadWrite.All"
+            },
+            {
+                "resource": "Microsoft Graph",
+                "scope": "GroupMember.Read.All"
+            }
+        ],
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.14.0"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "innovationHubIntranet description"
+            },
+            "longDescription": {
+                "default": "innovationHubIntranet description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [{
+            "title": "innovation-hub-intranet Feature",
+            "description": "The feature that activates elements of the innovation-hub-intranet solution.",
+            "id": "2806cbe2-8789-4f0c-835e-9bcd11a1b693",
+            "version": "1.0.0.0"
+        }]
+    },
+    "paths": {
+        "zippedPackage": "solution/innovation-hub-intranet.sppkg"
+    }
+}

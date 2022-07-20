@@ -1,0 +1,391 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+// AnnualPlan
+.apHeaderSection,
+.dpHeaderSection,
+.pbHeaderSection {
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+    z-index: 1;
+    background-color: #fff;
+    .apHeader {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    div {
+        .apAddBtn {
+            user-select: none;
+            color: white;
+            background-color: #faa332;
+            cursor: pointer;
+            border-radius: 3px;
+            padding: 7px 16px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.apModalBoxButtonSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    button {
+        user-select: none;
+        color: white;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 600;
+        border: none;
+    }
+    .apModalBoxSubmitBtn {
+        background-color: #36b04b;
+        padding: 6px 30px;
+    }
+    .apModalBoxBackBtn {
+        background-color: #b80000;
+        padding: 6px 30px;
+    }
+}
+
+.apDeletePopupBtnSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+        user-select: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        height: 30px;
+        width: 75px;
+        padding: 0;
+    }
+    .apDeletePopupYesBtn {
+        background-color: green;
+        border: 1px solid green;
+    }
+    .apDeletePopupNoBtn {
+        background-color: brown;
+        border: 1px solid brown;
+    }
+}
+
+.deletePopupTitle {
+    color: #2392b2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.deletePopupDesc {
+    font-size: 14px;
+    color: #000;
+}
+
+// delivery plan
+.dpTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dpProfiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.Section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ddSection {
+    display: flex;
+    align-items: center;
+}
+
+.scrollTop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    background-color: #faa332;
+    z-index: 100;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.userDetails {
+    display: flex;
+}
+
+//ProductionBoard
+//DocumentReview
+.drRequestFormBtnSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    button {
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .openFileBtn {
+        background-color: #2392b2;
+        padding: 8px 15px !important;
+        border-radius: 3px !important;
+        margin: 0 3px;
+    }
+    .openFileBtn:hover {
+        background-color: #2392b2;
+        opacity: 0.7;
+    }
+    .fixLinkBtn {
+        background-color: #2392b2;
+        padding: 8px 15px !important;
+        border-radius: 3px !important;
+        margin: 0 3px;
+    }
+    .fixLinkBtn:hover {
+        background-color: #2392b2;
+        opacity: 0.7;
+    }
+    .reallocateBtn {
+        padding: 8px 15px !important;
+        border-radius: 3px !important;
+        margin: 0 3px;
+        background-color: #092162;
+    }
+    .reallocateBtn:hover {
+        background-color: #092162;
+        opacity: 0.7;
+    }
+    .cancelRequestBtn {
+        padding: 8px 15px !important;
+        border-radius: 3px !important;
+        margin: 0 3px;
+        background-color: #b80000;
+    }
+    .cancelRequestBtn:hover {
+        background-color: #b80000;
+        opacity: 0.7;
+    }
+    .disableBtn {
+        padding: 8px 15px !important;
+        border-radius: 3px !important;
+        margin: 0 3px;
+        background-color: #ababab;
+        cursor: default;
+    }
+}
+
+.drReviewSubmitBtnSection {
+    display: flex;
+    justify-content: flex-end;
+    button {
+        border: none;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 10px 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .drRequestFormSubmitBtn {
+        background-color: #2392b2;
+        cursor: pointer;
+    }
+    .drRequestFormPublishBtn {
+        background-color: #faa332;
+        cursor: pointer;
+    }
+    .drRequestFormBtnDisabled {
+        background-color: #ababab;
+    }
+}
+
+.drPopupLabel {
+    text-align: center;
+    color: #2392b2 !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.drPopupDescription {
+    margin: 15px 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.drPopupButtonSection {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    button {
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-right: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+    .successBtnActive {
+        background-color: #36b04b;
+    }
+    .successBtnInActive {
+        background-color: #ababab;
+    }
+    .closeBtn {
+        background-color: #b80000;
+    }
+}
+
+// toggle btn
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle {
+    @extend .flex;
+    input {
+        visibility: hidden !important;
+    }
+    .slider {
+        @extend .flex;
+        justify-content: space-around;
+        background-color: #03838720;
+        border-radius: 4px;
+        height: 30px;
+        width: 250px;
+        position: relative;
+        padding: 2px 0;
+        overflow: hidden;
+        transform: translateX(-20px);
+        p {
+            font-size: 13px;
+        }
+        transition: all 0.4s !important;
+        user-select: none !important;
+    }
+    .slider::before {
+        content: "Deliverables";
+        @extend .flex;
+        font-size: 13px;
+        color: #ffffffe7;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        width: 50%;
+        height: 100%;
+        background-color: #038387;
+        border-radius: 6px;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.4s !important;
+    }
+    input:checked~.slider::before {
+        content: "Activity Planner";
+        // right: 0% !important;
+        transform: translateX(100%);
+        transition: all 0.4s !important;
+    }
+}
+
+.projectField {
+    color: #000 !important;
+}
+
+.requestReviewPanel::-webkit-scrollbar {
+    width: 4px !important;
+    background-color: #03838730 !important;
+}
+
+.requestReviewPanel::-webkit-scrollbar-thumb {
+    background-color: #038387aa !important;
+    border-radius: 30px !important;
+}
+
+.reviewDesc {
+    margin: 10px 0 !important;
+    margin-bottom: 12px !important;
+    max-height: 75px !important;
+    width: 100%;
+    overflow-x: hidden;
+    padding-right: 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+.reviewDesc::-webkit-scrollbar {
+    width: 4px !important;
+    background-color: #03838730 !important;
+}
+
+.reviewDesc::-webkit-scrollbar-thumb {
+    background-color: #038387aa !important;
+    border-radius: 30px !important;
+}
+
+// ActivityPlan Styles Starts
+.atpHeaderSection {
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+    z-index: 1;
+    background-color: #fff;
+    .atpHeader {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .atpAddBtn {
+        user-select: none;
+        color: white;
+        background-color: #faa332;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 7px 16px;
+        margin-bottom: 15px;
+        border: none;
+    }
+    .atpAddBtn:hover {
+        background-color: #ff9100;
+    }
+}
+
+// ActivityPlan Styles Ends

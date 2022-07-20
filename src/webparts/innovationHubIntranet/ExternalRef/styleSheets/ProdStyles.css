@@ -1,0 +1,108 @@
+#workbenchPageContent {
+    max-width: 100%;
+}
+
+.content_3f3fd3c2,
+.CanvasZone {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.ms-List-page {
+    margin-top: 0 !important;
+}
+
+.ms-DetailsList .ms-DetailsHeader-cellTitle {
+    /* justify-content: center !important; */
+    color: #038387;
+    background-color: #03838720;
+}
+
+.ms-DetailsHeader {
+    padding-top: 0 !important;
+    position: sticky;
+    top: 10%;
+    left: 0;
+}
+
+
+/* .ms-DetailsList-contentWrapper{
+    height: 300px !important; 
+     overflow-y: scroll;
+} */
+
+.pagination .ms-Button {
+    border: none !important;
+    background: none !important;
+    min-width: 0 !important;
+    padding: 5px !important;
+}
+
+.pagination .ms-Button.ms-Button--primary .ms-Button-label {
+    color: rgb(47, 195, 249);
+}
+
+
+/* modal radius */
+
+.ms-Dialog-main {
+    border-radius: 8px !important;
+}
+
+
+/* member picker */
+
+
+/* .ms-BasePicker-itemsWrapper {
+    padding: 2px !important;
+} */
+
+.animate {
+    /* background-color: #03838720;
+    */
+    background-color: #000;
+}
+
+
+/* .ms-Label {
+  color: #000 !important; 
+}*/
+
+
+/* .ms-TextField-field {
+  border: 1px solid !important;
+  height: 35px !important;
+  background: transparent !important;
+  border-radius: 4px !important;
+} */
+
+
+/* .ms-DetailsList{
+  overflow: hidden !important;
+} */
+
+
+/* scroll bar */
+
+.ms-DetailsList-contentWrapper::-webkit-scrollbar {
+    width: 4px;
+    background-color: #03838730;
+}
+
+.ms-DetailsList-contentWrapper::-webkit-scrollbar-thumb {
+    background-color: #038387aa;
+    border-radius: 30px;
+}
+
+
+/* react quill border */
+
+.ql-toolbar.ql-snow {
+    border: 1px solid #00000090 !important;
+}
+
+.ql-container.ql-snow {
+    border-right: 1px solid #00000090 !important;
+    border-left: 1px solid #00000090 !important;
+    border-bottom: 1px solid #00000090 !important;
+}

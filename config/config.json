@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "innovation-hub-intranet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/innovationHubIntranet/InnovationHubIntranetWebPart.js",
+          "manifest": "./src/webparts/innovationHubIntranet/InnovationHubIntranetWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InnovationHubIntranetWebPartStrings": "lib/webparts/innovationHubIntranet/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
